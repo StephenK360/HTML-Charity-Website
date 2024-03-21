@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terry Fox Foundation - Join Hands for A Brighter Future</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo" style="font-size:25px">TERRY FOX FOUNDATION</a>
+      </h1>
+
+      <select name="language" class="lang-switch">
+
+        <option value="english">English</option>
+        <option value="french">French</option>
+
+      </select>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">TERRY FOX FOUNDATION</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="Service.html" class="navbar-link" data-nav-link>
+              <span>Service</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="Donate.html" class="navbar-link" data-nav-link>
+              <span>Donate</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="Event.html" class="navbar-link" data-nav-link>
+              <span>Event</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="Contact.html" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-primary">
+          <span>Donation</span>
+
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+<main>
+    <article>
+        <div class="service_header"></div>
+    
+            <!-- Contact form -->
+        <section class="section contact" id="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Any Questions?<strong>CONTACT US</strong>
+          </h2>
+         <!-- Contact form -->
+    <section class="gridSection contactSection">
+        <div class="contactformContainer">
+            <h1 class="sectionHeaderContact" style="color:black">Get in touch</h1>
+            <form action="#" class="contactForm">
+                <div>
+                    <input type="text" name="" id="" placeholder="full name" class="contactInput" style="color: black">
+                    <input type="text" name="" id="" placeholder="Email" class="contactInput" style="color: black">
+                </div>                               
+                <textarea name="" id="" cols="30" rows="5" placeholder="Message" class="contactInput" style="color: black"></textarea>
+                <button type="submit" class="btn primaryBtn contactBtn" style="color:black">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+    <div class="sectionPic bouncepic contactPic" id="sectionPic">
+            <img src="./assets/images/about-banner-4.jpg" alt="floating image of terry Fox">
+    </div>
+    <h1 class="addressHeader">Find us Quickly</h1>
+    <div class="address">
+        <div class="eachAddress">
+            <h1>UK</h1>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 8 Lewisham Way, London SE14 6NW, (UK)</p>
+            <p>Email: terry@website.com</p>
+        </div>
+
+        <div class="eachAddress">
+            <h1>British Columbia</h1>
+            <p>Phone: (987) 654-3210</p>
+            <p>Address: 1999 Rodeo Drive, British Columbia(BC), Q2J7B3</p>
+            <p>Email: terry@website.com</p>
+        </div>
+
+        <div class="eachAddress">
+            <h1>Ontario</h1>
+            <p>Phone: (246) 101-2131</p>
+            <p>Address: 111 Terry Dungeon, Toronto, Canada(CA), H0H0H0</p>
+            <p>Email: terry@website.com</p>
+        </div>
+    </div>
+        </div>
+   
+    </article>
+        
+</main>
+    
+    <!-- #Gallery (i tried creating a separate class for this section title but css was being annoying hence i put it inline)  -->
+<h2 class="h2 section-title" style="text-align: center; padding-top: 30px;">
+            Our Gallery of Images <strong>Terry Fox</strong>
+      <!-- 
+        - #INSTA POST
+      -->
+
+      <section class="insta-post">
+          
+
+        <ul class="insta-post-list">
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-1.jpg" width="320" height="300" loading="lazy" alt="portrait of terry"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-2.jpg" width="320" height="300" loading="lazy" alt="Terry Fox on Race Track"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-3.jpg" width="320" height="300" loading="lazy" alt="Terry Fox In His Youth"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-4.jpg" width="320" height="300" loading="lazy" alt="Terry Fox in Quebec"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-5.jpg" width="320" height="300" loading="lazy" alt="Terry Fox Shirt on Reynolds"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Terms of use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy & Policy</a>
+        </li>
+
+      </ul>
+
+      <p class="copyright">
+        Copyright 2024 <a href="#" class="copyright-link">Stephen Kassaw</a>. All Rights Reserved.
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
+
+
+            
